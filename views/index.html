@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>ncs.io &bull; The NCS Brain Simulator</title>
+  <title>NCS - An Extensible Neural Simulator</title>
   <meta name="description" content="Webpage for the NCS brain simulator">
   <meta name="author" content="Nathan Jordan">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,7 +16,6 @@
 <body>
 	<div class="container">
 			<ul class="nav nav-pills pull-right top-nav">
-				<li class="active"><a href="">Home</a></li>
 				<li><a href="">Documentation</a></li>
 				<li><a href="">Source</a></li>
 			</ul>
@@ -28,7 +27,7 @@
 	<section class="container">
 		<h1 class="text-right">What is NCS?</h1>	
 		<div class="col-md-5 placeholder">
-		
+			<img src="/img/brain.svg" alt="Brain"/>		
 		</div>
 		<article class="col-md-offset-1 col-md-6 description">
 			NCS (short for Neo-Cortical Simulator) is an open-source neural simulation tool. Like other neural simulators such as NEURON, GENESIS, PyNEST, and BRIAN, it allows neuroscientists to to accurately perform experiments on biologically-realistic neural networks without going <em>in vivo</em> or <em>in vitro</em>. The simulator lets users build, test, and visualize models using a comprehensive set of web-based tools.
@@ -40,12 +39,13 @@
 			NCS has many features that distinguish it from other neural simulators. Unlike simulators such as NEURON and GENESIS, NCS focuses on simulating large-scale neural networks: on the order of millions of neurons, while still maintaining biological accuracy. NCS also includes a wide-array of tools to help in the development of these large models, such as an easy-to-use web interface, an integrated model database that lets you share models with other researchers, and the ability to deploy a simulation on the Amazon Cloud if you don't have your own cluster.
 		</article>
 		<div class="col-md-offset-1 col-md-5 placeholder">
-		
+			<img src="/img/bulb.svg" alt="Bulb"/>		
 		</div>
 	</section>
 	<section class="container">
 		<h1 class="text-right">What can it do?</h1>	
 		<div class="col-md-5 placeholder">
+			<img src="/img/nvidia.svg" alt="Nvidia"/>		
 		</div>
 		<article class="col-md-offset-1 col-md-6 description">
 			NCS can run on one computer, or a cluster of over a hundred. It runs on both the CPU and NVIDIA GPU's (using CUDA) to generate maximum computational power. Using a sufficient number of machines and NVIDIA GPU's, the simulator can run a million-cell model in real time. The simulator also offers different neuron models within the same simulation, including Leaky-Integrate and Fire, Izhikivich, and Hodgkin-Huxley to provide neuroscientists the ability to select either detail or performance in different parts of the simulation.
